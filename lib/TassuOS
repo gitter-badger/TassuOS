@@ -1,0 +1,29 @@
+version = "1.0.0"
+
+users = {}
+
+function clear()
+  if term.isColor and term.isColor() then
+    term.setBackgroundColor(colors.black)
+	term.setTextColor(colors.white)
+  end
+  term.clear()
+  term.setCursorPos(1, 1)
+end
+
+function centerPrint(text, ny)
+	if type(text) == "table" then
+		for _,v in pairs(text) do
+			centerPrint(v)
+		end
+	else
+		local _,y = term.getCursorPos()
+		local w,h = term.getSize()
+		term.setCursorPos(math.ceil((w-#text)/2), ny or y)
+		print(text)
+	end
+end
+
+users.login = function(name, pass)
+	
+end

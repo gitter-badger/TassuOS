@@ -1,0 +1,52 @@
+{
+  Children={
+		{
+		  X=2,
+		  Y=2,
+		  Name="HelloLabel",
+		  Type="Label",
+		  Text="TassuOS",
+		  TextColour="red"
+		},
+		{
+		  X=10,
+		  Y=2,
+		  Name="SetupLabel",
+		  Type="Label",
+		  Text="SETUP",
+		},
+		{
+		  X=2,
+		  Y=4,
+		  Name="InfoLabel",
+		  Type="Label",
+		  Text="Hello! \n Welcome to TassuOS!\n\n First, please enter a root password.",
+		},
+		{
+		X=2,
+		Y=9,
+		Width=15,
+		Type="SecureTextBox",
+		Name="PasswordTextBox",
+		Placeholder="********",
+		Active=true
+		},
+		{
+		X=2,
+		Y=11,
+		Width=15,
+		Type="SecureTextBox",
+		Name="PasswordConfirmTextBox",
+		Placeholder="Password again",
+		Active=false
+		},
+		{
+		X=2,
+		Y=13,
+		Type="Button",
+		Text="Next ->",
+		Name="NextButton",
+		}
+    },
+ 	BackgroundColour='white'
+}

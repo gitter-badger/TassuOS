@@ -1,0 +1,35 @@
+{
+  Children={
+        {
+          X=2,
+          Y=2,
+          Name="HelloLabel",
+          Type="Label",
+          Text="TassuOS",
+          TextColour="red"
+        },
+        {
+          X=2,
+          Y=4,
+          Name="HelloButton",
+          Type="Button",
+          Text="Hello! I'm a Button!"
+        },
+        {
+          X=10,
+          Y=2,
+          Name="VersionLabel",
+          Type="Label",
+          Text="ERROR"
+        },
+        {
+          X=2,
+          Y=18,
+          Name="InfoLabel",
+          Type="Label",
+          Text="ERROR"
+        }
+  },
+  BackgroundColour='white'
+}
+
